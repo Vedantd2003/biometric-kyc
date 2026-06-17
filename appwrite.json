@@ -1,0 +1,86 @@
+{
+  "projectId": "REPLACE_WITH_YOUR_PROJECT_ID",
+  "projectName": "biometric-kyc",
+  "functions": [
+    {
+      "name": "hv-enroll",
+      "$id": "hv-enroll",
+      "path": "functions/hv-enroll",
+      "runtime": "node-22.0",
+      "entrypoint": "src/index.ts",
+      "execute": [],
+      "events": [],
+      "scopes": ["users.read"],
+      "variables": {
+        "HYPERVERGE_APP_ID": "",
+        "HYPERVERGE_APP_KEY": ""
+      }
+    },
+    {
+      "name": "hv-authenticate",
+      "$id": "hv-authenticate",
+      "path": "functions/hv-authenticate",
+      "runtime": "node-22.0",
+      "entrypoint": "src/index.ts",
+      "execute": [],
+      "events": [],
+      "scopes": ["users.read"],
+      "variables": {
+        "HYPERVERGE_APP_ID": "",
+        "HYPERVERGE_APP_KEY": ""
+      }
+    },
+    {
+      "name": "doc-verify",
+      "$id": "doc-verify",
+      "path": "functions/doc-verify",
+      "runtime": "node-22.0",
+      "entrypoint": "src/index.ts",
+      "execute": [],
+      "events": [],
+      "scopes": ["users.read"],
+      "variables": {
+        "SARVAM_API_KEY": ""
+      }
+    },
+    {
+      "name": "va-stt",
+      "$id": "va-stt",
+      "path": "functions/va-stt",
+      "runtime": "node-22.0",
+      "entrypoint": "src/index.ts",
+      "execute": [],
+      "events": [],
+      "scopes": [],
+      "variables": {
+        "SARVAM_API_KEY": ""
+      }
+    },
+    {
+      "name": "va-brain",
+      "$id": "va-brain",
+      "path": "functions/va-brain",
+      "runtime": "node-22.0",
+      "entrypoint": "src/index.ts",
+      "execute": [],
+      "events": [],
+      "scopes": [],
+      "variables": {
+        "OPENROUTER_API_KEY": ""
+      }
+    },
+    {
+      "name": "va-tts",
+      "$id": "va-tts",
+      "path": "functions/va-tts",
+      "runtime": "node-22.0",
+      "entrypoint": "src/index.ts",
+      "execute": [],
+      "events": [],
+      "scopes": [],
+      "variables": {
+        "SARVAM_API_KEY": ""
+      }
+    }
+  ]
+}

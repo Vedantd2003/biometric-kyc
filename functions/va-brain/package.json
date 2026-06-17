@@ -1,0 +1,6 @@
+﻿{
+    "private":  true,
+    "name":  "va-brain",
+    "version":  "1.0.0",
+    "main":  "src/index.ts"
+}
